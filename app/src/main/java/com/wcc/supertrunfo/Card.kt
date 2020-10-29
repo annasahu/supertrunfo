@@ -14,9 +14,8 @@ class Card (
         return vehicle.passagers * (1 + driver.defensiveDriving)
     }
 
-    //criar
     private fun setAccelerationTime(): Int {
-        TODO("Not yet implemented")
+        return vehicle.accelarationTime * (1 / driver.accelerationTime)
     }
 
     private fun setMaxVelocity(): Int {

@@ -8,5 +8,6 @@ data class Driver (
         val bikeChampionships: Int,
         val motorcycleChampionships: Int,
         val boldness: Int,
-        val defensiveDriving: Int
+        val defensiveDriving: Int,
+        val accelerationTime: Int
 )
