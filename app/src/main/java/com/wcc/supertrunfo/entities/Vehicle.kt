@@ -1,4 +1,4 @@
-package com.wcc.supertrunfo
+package com.wcc.supertrunfo.entities
 
 data class Vehicle(
         val maxAcceleration: Int,

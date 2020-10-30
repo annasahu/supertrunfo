@@ -1,5 +1,9 @@
 package com.wcc.supertrunfo
 
+import com.wcc.supertrunfo.entities.Driver
+import com.wcc.supertrunfo.entities.Player
+import com.wcc.supertrunfo.entities.Vehicle
+
 class Card (
         val vehicle: Vehicle,
         val driver: Driver,

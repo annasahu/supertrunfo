@@ -1,4 +1,4 @@
-package com.wcc.supertrunfo
+package com.wcc.supertrunfo.entities
 
 data class Driver (
         val carXP: Int,
